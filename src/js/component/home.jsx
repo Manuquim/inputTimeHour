@@ -1,12 +1,12 @@
 import React from "react";
-import Semaforo from "./Semaforo.jsx";
+import DayTime from "./DayTime.jsx";
 
 
 //create your first component
 const Home = () => {
 	return (
 		<div className="text-center">
-			<div className="container"><Semaforo /></div>
+			<div className="container"><DayTime /></div>
 		</div>
 	);
 };
